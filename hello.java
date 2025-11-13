@@ -188,18 +188,18 @@
 
 // class
 
-class car{
-   String name="jai mata dii..";
- static void sum(){
-  car a=new car();
-    System.out.println(a.name);
-  }
-}
-class main{
-  public static void main(String[] args){
-    car obj=new car();
-   obj.sum();
-  }
-}
+// class car{
+//    String name="jai mata dii..";
+//  static void sum(){
+//   car a=new car();
+//     System.out.println(a.name);
+//   }
+// }
+// class main{
+//   public static void main(String[] args){
+//     car obj=new car();
+//    obj.sum();
+//   }
+// }
 
 

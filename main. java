@@ -1,0 +1,43 @@
+//device  laptop gaming laptop
+// class device{
+//     void poweron(){
+//         System.out.println("device is powerd on");
+//     }
+// }
+// class laptop extends device {
+//     void boot (){
+//         System.out.println("laptop is booting");
+//     }
+// }
+// class gaminglaptop extends laptop {
+//     void startgame(){
+//     System.out.println("game is starting on gaming laptop");
+//     }
+// }
+// public class java{
+//     public static void main(String[] args){
+//         gaminglaptop g=new gaminglaptop();
+//         g.poweron();
+//         g.boot();
+//         g.startgame();
+//     }
+// }
+
+
+class Book{
+    void read(){
+        System.out.println("reading a book");
+    }
+}
+class novel extends Book{
+    void storyline(){
+        System.out.println("the novel has an interesting storyline");
+    }
+}
+public class main{
+    public static void main(String[] args){
+        novel n = new novel();
+        n.read();
+        n.storyline();
+    }
+}

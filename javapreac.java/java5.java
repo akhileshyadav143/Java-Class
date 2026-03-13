@@ -22,7 +22,7 @@
 //         for(int i=1;i<=n;i++){
 //           for( int j=1;j<=m;j++){
 //              if( i == 1 || j == n || j == m){
-//                 System.out.println("*");
+//                 System.out.print("*");
 //              }else{
 //                 System.out.println(" ");
 //              }
@@ -37,15 +37,15 @@
 
 public class java5 {
 
-public static void main(String[] args) {
+public static void main(String args[]) {
     int n=4;
     for( int i=1; i<=n; i++){
         for( int j=1;j<=i; j++){ 
 
         
-        System.out.println("*");
+        System.out.print("*");
     }
-    System.out.println("   ");
+    System.out.println();
 }
 }
 }

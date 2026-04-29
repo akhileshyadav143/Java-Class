@@ -52,20 +52,20 @@
 //     }
 // }
 
-// public class Java12 {
-//     public static void main(String[] args) {
+ public class Java12 {
+     public static void main(String[] args) {
 
-//         MyList myList = new MyList();
+         MyList myList = new MyList();
 
-//         myList.addToLast(10);
-//         myList.addToLast(20);
-//         myList.addToLast(30);
-//         myList.addToLast(40);
-//         myList.addToLast(50);
+         myList.addToLast(10);
+         myList.addToLast(20);
+         myList.addToLast(30);
+         myList.addToLast(40);
+         myList.addToLast(50);
 
-//         myList.print();
-//     }
-// }
+         myList.print();
+     }
+ }
 
 
 

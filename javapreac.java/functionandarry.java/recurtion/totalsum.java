@@ -1,7 +1,7 @@
 // import java.util.Scanner;
 
 // public class totalsum
- {
+
 
 //     // function to print subarrays using recursion
 //     public static void printSubarrays(int arr[], int start, int end) {

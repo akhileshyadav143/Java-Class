@@ -58,15 +58,36 @@
 //     }
 
     // incriment decriment
-     public class javap1 {
+    //  public class javap1 {
  
-     public static void main(String[] args) {
-        int x=40;
-        System.out.println(x);
-        x++;
+    //  public static void main(String[] args) {
+    //     int x=40;
+    //     System.out.println(x);
+    //     x++;
        
         
-       System.out.println(x);
+    //    System.out.println(x);
 
+    //  }
+    // }
+
+import java.util.Scanner;
+
+public class javap1 {
+ 
+     public static void main(String[] args) {
+    
+        Scanner sc=new Scanner(System.in);
+        int x = sc.nextInt();
+
+        if(x>0){
+          System.out.println("positive number");
+        }
+        else if(x<0){
+          System.out.println("Negative  number");
+        }else{
+          System.out.println("value iis zero");
+        }
      }
     }
+

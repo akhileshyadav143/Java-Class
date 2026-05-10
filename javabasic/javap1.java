@@ -71,23 +71,62 @@
     //  }
     // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class javap1 {
+// public class javap1 {
  
-     public static void main(String[] args) {
+//      public static void main(String[] args) {
     
-        Scanner sc=new Scanner(System.in);
-        int x = sc.nextInt();
+//         Scanner sc=new Scanner(System.in);
+//         int x = sc.nextInt();
 
-        if(x>0){
-          System.out.println("positive number");
-        }
-        else if(x<0){
-          System.out.println("Negative  number");
-        }else{
-          System.out.println("value iis zero");
-        }
-     }
-    }
+//         if(x>0){
+//           System.out.println("positive number");
+//         }
+//         else if(x<0){
+//           System.out.println("Negative  number");
+//         }else{
+//           System.out.println("value iis zero");
+//         }
+//      }
+//     }
+
+// import java.util.Scanner;
+
+// public class javap1 {
+ 
+//     public static void main(String[] args) {
+//       int n;
+//     Scanner  sc=new Scanner(System.in);
+//      int n =sc.nextInt();
+//      if(n%2==0){
+//       System.out.print("even");
+//      }else{
+//       System.out.print("odd");
+//      }
+//     }
+//   }
+
+// import java.util.Scanner;
+
+// public class javap1 {
+ 
+//      public static void main(String[] args) {
+
+//       int a,b ;
+
+//       Scanner sc=new Scanner(System.in);
+//       int x=sc.nextInt();
+//       if(a>b){
+//         System.out.println("larger a");
+//       }
+//       else if(b>a){
+//         System.out.println("large b");
+//       }
+//       else{
+//         System.out.println("equal");
+//       }
+//      }
+//     }
+
 

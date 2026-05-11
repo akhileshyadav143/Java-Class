@@ -36,14 +36,23 @@
 
 
 // ternary operater
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class javap2 {
+//      public static void  main(String[] args){
+//        Scanner sc=new Scanner(System.in);
+//        int num=sc.nextInt();
+
+//        String ans=num%2==0?"enen":"odd";
+//        System.out.println(ans);
+//      }
+//     }
+
 
 public class javap2 {
      public static void  main(String[] args){
-       Scanner sc=new Scanner(System.in);
-       int num=sc.nextInt();
-
-       String ans=num%2==0?"enen":"odd";
-       System.out.println(ans);
+     for( int i=1;i<=10;i++){
+        System.out.println(i);
+     }
      }
     }

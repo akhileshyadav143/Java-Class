@@ -64,17 +64,3 @@
 // }
 
 
-
- public class hello {
-
-     public static void main(String[] args){
-
-        string str="hello";
-         rev=" ";
-        for(int i=str.length();i>=0;i--){
-            rev= rev + str.length(i);
-
-            System.out.println("rev");
-        }
-     }
-    }
